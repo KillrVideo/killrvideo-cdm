@@ -1,0 +1,12 @@
+keyspace: killrvideo
+tables:
+    - users
+    - videos
+    - comments_by_user
+    - comments_by_video
+    - user_videos
+    - video_ratings_by_user
+    - videos_by_tag
+    # This table is all counters and needs support from CDM first
+    #- video_ratings
+version: 2.2
