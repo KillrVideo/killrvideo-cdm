@@ -1,4 +1,5 @@
 keyspace: killrvideo
+schema: schema/schema.cql
 tables:
     - users
     - videos
